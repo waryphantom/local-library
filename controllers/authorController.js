@@ -4,7 +4,7 @@ var Book = require('../models/book')
 
 const { body,validationResult } = require("express-validator");
 
-// Display list of all Authors.
+// Display list of all Authors
 exports.author_list = function (req, res, next) {
 
     Author.find()
